@@ -1,0 +1,22 @@
+.mainButtons {
+    border: none;
+    border-radius: 6px;
+    padding: 8px 26px;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px #afafaf;
+}
+
+.activedButton {
+    background-image: linear-gradient(to right, rgb(38,131,209), rgb(70,169,254));
+    color: white;
+}
+
+.inactivedButton {
+    background-color: white;
+    color: gray;
+}
+
+.mainButtons:hover {
+    transition-duration: 300ms;
+    transform: scale(1.03);
+}
